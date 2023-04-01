@@ -17,6 +17,14 @@ export const appRouter = createBrowserRouter([
     element: <App />,
     children: [
       //  as rotas serão incluídas aqui!
+      {
+        path: "/home",
+        element: <Home />,
+      },
+      {
+        path: "/quem-sou",
+        element: <QuemSou />,
+      }
     ],
   },
 ]);
