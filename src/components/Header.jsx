@@ -5,14 +5,14 @@ export const Header = () => {
         <span className="flex-grow-1">Tarefas.dev</span>
         <ul class="navbar-nav ">
           <li class="nav-item me-auto">
-            <a class="nav-link active" aria-current="page" href="#">
+            <link class="nav-link active" aria-current="page" to="/home">
               Home
-            </a>
+            </link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <link class="nav-link" to="/quem-sou">
               Quem sou
-            </a>
+            </link>
           </li>
         </ul>
       </nav>
