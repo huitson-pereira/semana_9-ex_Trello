@@ -10,6 +10,8 @@
 
 import { createBrowserRouter } from "react-router-dom";
 import { App } from "./App";
+import {Home} from "./pages/Home";
+import {QuemSou} from "./pages/QuemSou";
 
 export const appRouter = createBrowserRouter([
   {
@@ -24,7 +26,7 @@ export const appRouter = createBrowserRouter([
       {
         path: "/quem-sou",
         element: <QuemSou />,
-      }
+      },
     ],
   },
 ]);
