@@ -7,14 +7,12 @@ export const Home = () => {
   
   return (
     <ToDoProvider>
-      <div>
-        <div className="row">
+      <div className="row">
           <Formulario />
-        </div>
-        <div className="row">
+      </div>
+      <div className="row">
           <TodoList name="A fazer"/>
           <TodoList name="Finalizados"/>
-        </div>
       </div>
     </ToDoProvider>
   );
