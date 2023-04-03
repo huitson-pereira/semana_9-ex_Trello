@@ -1,18 +1,20 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   return (
     <header className="header bg-body-secondary">
       <nav className="navbar navbar-expand-lg  container d-flex ">
         <span className="flex-grow-1">Tarefas.dev</span>
-        <ul class="navbar-nav ">
+        <ul className="navbar-nav ">
           <li class="nav-item me-auto">
-            <link class="nav-link active" aria-current="page" to="/home">
+            <Link className="nav-link active" aria-current="page" to="/home">
               Home
-            </link>
+            </Link>
           </li>
-          <li class="nav-item">
-            <link class="nav-link" to="/quem-sou">
+          <li className="nav-item">
+            <Link className="nav-link" to="/quem-sou">
               Quem sou
-            </link>
+            </Link>
           </li>
         </ul>
       </nav>

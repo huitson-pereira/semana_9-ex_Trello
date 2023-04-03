@@ -1,3 +1,4 @@
+
 export const Usuario = ({ nome, cargo, redes }) => {
   return (
     <div>
@@ -12,7 +13,7 @@ export const Usuario = ({ nome, cargo, redes }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <i class={`bi ${rede.icone}`}></i>
+            <i className={`bi ${rede.icone}`}></i>
           </a>
         ))}
       </div>

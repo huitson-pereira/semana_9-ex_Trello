@@ -26,7 +26,7 @@ export const appRouter = createBrowserRouter([
       {
         path: "/quem-sou",
         element: <QuemSou />,
-      },
+      }
     ],
   },
 ]);
